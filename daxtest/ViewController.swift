@@ -12,9 +12,14 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var thelabel: UILabel!
     
-    
+    var druk = 0
     @IBAction func DRUKKNOP(_ sender: Any) {
-    thelabel.text = "MIDDAG MENSE"
+    thelabel.text = "MIDDAG MENSIES"
+        druk = druk + 1
+        if druk >= 3 {
+            thelabel.text = "lekker slaap"
+        }
+        
     }
     
     
