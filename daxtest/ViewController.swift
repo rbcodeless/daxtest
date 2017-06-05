@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     @IBAction func DRUKSKOON(_ sender: Any) {
         thelabel.text = "SKOON"
-        druk = 0
+        druk = 2
     }
     
     override func viewDidLoad() {
